@@ -1,9 +1,13 @@
 {
-  "$schema": "https://raw.githubusercontent.com/modelcontextprotocol/registry/main/schema/draft/v0.4/server.schema.json",
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "io.brode/brode",
-  "description": "Brode.io — convert any image into machine embroidery files (DST, PES, JEF, VP3, EXP, U01, XXX) or vector graphics (SVG, PDF, EPS, DXF). Free tier: 5 vectorizations + 2 embroideries per month.",
+  "title": "Brode.io",
+  "description": "Convert any image into machine embroidery files (DST, PES, JEF, VP3, EXP, U01, XXX) or vector graphics (SVG, PDF, EPS, DXF). Free tier: 5 vectorizations + 2 embroideries per month.",
   "version": "1.0.0",
   "remotes": [
-    { "transportType": "http", "url": "https://brode.io/api/mcp" }
+    {
+      "type": "streamable-http",
+      "url": "https://brode.io/api/mcp"
+    }
   ]
 }
