@@ -2,7 +2,7 @@
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "io.brode/brode",
   "title": "Brode.io",
-  "description": "Convert any image into machine embroidery files (DST, PES, JEF, VP3, EXP, U01, XXX) or vector graphics (SVG, PDF, EPS, DXF). Free tier: 5 vectorizations + 2 embroideries per month.",
+  "description": "Convert any image into machine embroidery files (DST, PES…) or vector graphics (SVG, PDF, EPS, DXF).",
   "version": "1.0.0",
   "remotes": [
     {
