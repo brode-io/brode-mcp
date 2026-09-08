@@ -1,4 +1,8 @@
 {
+  "$schema": "https://glama.ai/mcp/schemas/server.json",
+  "maintainers": [
+    "mobzapp-code"
+  ],
   "name": "brode",
   "displayName": "Brode.io",
   "description": "Brode.io — convert any image into machine embroidery files (DST, PES, JEF, VP3, EXP, U01, XXX) or vector graphics (SVG, PDF, EPS, DXF).",
@@ -6,5 +10,10 @@
   "docs": "https://brode.io/tools/mcp",
   "transport": "http",
   "auth": "bearer",
-  "tools": ["brode_convert", "brode_presets", "brode_job_status", "brode_download"]
+  "tools": [
+    "brode_convert",
+    "brode_presets",
+    "brode_job_status",
+    "brode_download"
+  ]
 }
